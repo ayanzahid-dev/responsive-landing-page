@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">MyProduct</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>SmartLife Gadget</h1>
+      <p>Revolutionize your daily routine with smart technology.</p>
+      <a href="#pricing" class="btn">Buy Now</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://via.placeholder.com/400x300" alt="Product Image"/>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features" id="features">
+    <h2>Awesome Features</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <i class="fas fa-bolt"></i>
+        <h3>Fast Performance</h3>
+        <p>Experience lightning-fast speeds with our optimized hardware.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-shield-alt"></i>
+        <h3>Secure</h3>
+        <p>Advanced encryption keeps your data safe and private.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-sync-alt"></i>
+        <h3>Sync Anywhere</h3>
+        <p>Seamlessly sync across all your devices in real-time.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-cogs"></i>
+        <h3>Easy Customization</h3>
+        <p>Personalize every feature to match your lifestyle.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing" id="pricing">
+    <h2>Pricing Plans</h2>
+    <div class="pricing-cards">
+      <div class="price-card">
+        <h3>Basic</h3>
+        <p>$9.99/month</p>
+        <ul>
+          <li>1 Device</li>
+          <li>Basic Support</li>
+        </ul>
+        <button class="btn">Choose</button>
+      </div>
+      <div class="price-card popular">
+        <h3>Standard</h3>
+        <p>$19.99/month</p>
+        <ul>
+          <li>Up to 3 Devices</li>
+          <li>Priority Support</li>
+        </ul>
+        <button class="btn">Choose</button>
+      </div>
+      <div class="price-card">
+        <h3>Premium</h3>
+        <p>$29.99/month</p>
+        <ul>
+          <li>Unlimited Devices</li>
+          <li>24/7 Support</li>
+        </ul>
+        <button class="btn">Choose</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+      <p id="formMsg"></p>
+    </form>
+    <div class="footer">
+      <p>&copy; 2025 MyProduct. All rights reserved.</p>
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
